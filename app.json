@@ -12,22 +12,22 @@
   "env": {
     "SESSION_ID": {
       "description": "Enter your Jinwoo session id here; must start with jinwoo:~",
-      "value": "",
+      "value": "jinwoo:~hidQ1JxT#ZILjxZVMC_XYRXgqKWdXqfuu0ixRIE5GAmJtQS5zL34",
       "required": false
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "ᴊɪᴡᴏᴏ-ʙᴏᴛ",
+      "value": "JINWOO-MD",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here, starting with country code E.g 2637xxxxxxxx",
-      "value": "",
+      "value": "22870615653",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "",
+      "value": "SUNG",
       "required": true
     },
     "STICKER_PACK_NAME": {
@@ -37,7 +37,7 @@
     },
     "STICKER_AUTHOR_NAME": {
       "description": "Sticker author name",
-      "value": "sᴜɴɢ",
+      "value": "SUNG",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -88,7 +88,7 @@
     "STATUS_EMOJI": {
       "description": "Set your desired status reaction emoji",
       "value": "🧡",
-      "required": false
+      "required": true
     },
     "CHATBOT": {
       "description": "Set true to enable and false to disable auto reply chatbot",
@@ -102,8 +102,8 @@
     },
     "WELCOME_MSG": {
       "description": "Set true to enable and false to disable welcome messages",
-      "value": "false",
-      "required": false
+      "value": "true",
+      "required": true
     },
     "TIMEZONE": {
       "description": "Enter your timezone here. Google or don't edit if you don't know!",
